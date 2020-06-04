@@ -14,3 +14,9 @@ In order to fulfil this goal I first found a labeled dataset from the Univeristy
 Using Newspaper3K I webscrpaed the text of each article (as the dataset only provided the url) and, after some cleaning of the scraped texts, I used NLTK for some Natural Language (Pre)Processing. Once my data was ready I used the Scikit Learn library to test different classifiers with a Support Vector Machine employing a Gaussian RBF Kernel coming out on top. 
 
 This classifier is very good at predicting the political inclination of a text (left leaning, right leaning or neutral). Hence the model is able to predict the political inclination of a previously unseen text. This prediction is used to then recommend previously analysed atricles that oppose the unseen, user inputed article.
+
+The notebook CounterPoint.ipynb contains the code used to create and develope the model. The CounterPoint.pdf are presentation slides and the data set is a cleaned version of the data I used. 
+
+## Future Improvements
+
+With future work I plan to open up my programme to a wider variety of topics and hopefully add a live element whereby articles will be downloaded and classified in real time in order to have a wider breadth of articles to recommend. 
