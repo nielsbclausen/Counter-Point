@@ -4,7 +4,7 @@ I built a programme that allows for a user to input an article and recieve a cou
 This matters as we increasingly see more polarised political discourse.
 
 You can reach me at:
-* [clausen1996@gmail.com]()
+* [niels.clausen1996@gmail.com]()
 
 ### Executive Summary
 
